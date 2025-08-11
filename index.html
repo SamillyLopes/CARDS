@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Interativos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cards Interativos</h1>
+        <p>Passe o mouse e clique nos cards para ver os efeitos</p>
+    </header>
 
+    <main class="cards-container">
+        <!-- Card 1 -->
+        <div class="card" data-card-id="1">
+            <div class="card-icon">💡</div>
+            <h3 class="card-title">Ideias Criativas</h3>
+            <p class="card-content">Descubra novas formas de pensar e inovar em seus projetos.</p>
+            <button class="card-button">Saiba mais</button>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card" data-card-id="2">
+            <div class="card-icon">🚀</div>
+            <h3 class="card-title">Desenvolvimento Rápido</h3>
+            <p class="card-content">Tecnologias modernas para acelerar seu tempo de desenvolvimento.</p>
+            <button class="card-button">Saiba mais</button>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card" data-card-id="3">
+            <div class="card-icon">🎨</div>
+            <h3 class="card-title">Design Impactante</h3>
+            <p class="card-content">Crie interfaces que encantam e engajam seus usuários.</p>
+            <button class="card-button">Saiba mais</button>
+        </div>
+    </main>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 id="modal-title">Título do Modal</h2>
+            <p id="modal-text">Conteúdo do modal será inserido aqui.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
